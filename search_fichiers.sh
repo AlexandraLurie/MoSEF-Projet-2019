@@ -5,11 +5,12 @@
 date=$(date +'%d %B %Y')
 
 #On affiche la phrase de bienvenue en fonction de l'utilisateur logué et de la date
-echo 'Bienvenu' $LOGNAME', nous sommes le '$date'.'
+echo "Bienvenue $LOGNAME, nous sommes le $date"
 
 #On recupere le repertoire que l'utilisateur souhaite afficher
 read -p "Quel repertoire vous interesse aujourd'hui ?" repertoire
 
-#On affiche le repertoire en fonction du parametre donne
-ls $repertoire/$1
+#On affiche le repertoire en fonction du premier parametre et du pattern donne en deuxieme parametre
+
+grep -il $2 $repertoire/$1
 
