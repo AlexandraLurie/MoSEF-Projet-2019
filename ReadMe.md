@@ -16,4 +16,4 @@ Où param1 et param2 sont respectivement le pattern du fichier et le pattern du 
 
 Ensuite, renseigner le repertoire de recherche
 
-Le script affiche l'ensemble des fichiers dont le nom va avec le pattern 1 et dont son contenu va avec le pattern 2
+Le script affiche l'ensemble du fichier dont le nom va avec le pattern 1 et dont son contenu va avec le pattern 2
