@@ -9,6 +9,7 @@ echo "Bienvenue $LOGNAME, nous sommes le $date"
 
 #On recupere le repertoire que l'utilisateur souhaite afficher
 read -p "Quel repertoire vous interesse aujourd'hui ?" repertoire
+echo $repertoire
 
 #On affiche le repertoire en fonction du premier parametre et du pattern donne en deuxieme parametre
 
